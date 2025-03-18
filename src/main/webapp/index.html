@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Start Page</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="styles.css">
+        <style>
+            .dropbtn {
+                background-color: #315c61;
+                color: white;
+                padding: 16px;
+                font-size: 16px;
+                border: none;
+                cursor: pointer;
+            }
+
+            .dropdown {
+                position: relative;
+                display: inline-block;
+            }
+
+            .dropdown-content {
+                display: none;
+                position: absolute;
+                right: 0;
+                background-color: #f9f9f9;
+                min-width: 160px;
+                box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+                z-index: 1;
+            }
+
+            .dropdown-content a {
+                color: black;
+                padding: 12px 16px;
+                text-decoration: none;
+                display: block;
+            }
+
+            .dropdown-content a:hover {
+                background-color: #f1f1f1;
+            }
+
+            .dropdown:hover .dropdown-content {
+                display: block;
+            }
+
+            .dropdown:hover .dropbtn {
+                background-color: #3e8d8e;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1> Gestion de bodega minimercado la 43</h1>
+            <div>
+                <div class="dropdown" style="float:left;">
+                    <button class="dropbtn">inventario</button>
+                    <div class="dropdown-content" style="left:0;">
+                        <a href="Almacenamiento.jsp">registrar de producto</a>
+                        <a href="inventario02.html">stock de productos</a>
+                        <a href="inventario03.html">salida de productos</a>
+                        <a href="inventario04.html">nuevo producto</a>
+                    </div>
+                </div>
+                <div class="dropdown" style="float:left;">
+                    <button class="dropbtn">Compras</button>
+                    <div class="dropdown-content" style="left:0;">
+                        <a href="compras01.html">crear pedido</a>
+                        <a href="compras02.html">Recepcion de mercancia</a>
+
+                    </div>
+                </div>
+                <div class="dropdown" style="float:left;">
+                    <button class="dropbtn">informes</button>
+                    <div class="dropdown-content" style="left: 0;">
+                        <a href="informes01.html">informe inventario</a>
+                        <a href="informes02.html">informe compras</a>
+                        <a href="informe03.html">informe caducados</a>
+                    </div>
+                </div>
+                <div class="dropdown" style="float: left;">
+                    <button class="dropbtn">soporte</button>
+                    <div class="dropdown-content" style="left: 0;">
+                        <a href="soporte01.html">configuracion usuario</a>
+                        <a href="soporte02.html">Nuevo usuario</a>
+                        <a href="soporte03.html">Manual usuario</a>
+                    </div>
+                </div> 
+
+
+            </div>
+            <br><br><br>
+
+        </header>
+        <h1>bienvenido usuario</h1>
+        <img src="https://cdn.pixabay.com/photo/2017/09/04/18/51/ikea-2714998_960_720.jpg"   width="50%" alt="inventario">
+
+        <script src="script.js"></script>
+    </body>
+</html>
+
