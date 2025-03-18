@@ -10,7 +10,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>inventario01</title>
+    <title>inventario</title>
     <link
            
         <link rel="stylesheet" href="style.css" type="text/css"/>
@@ -67,11 +67,11 @@
         <div class="dropdown" style="float:left;">
             <button class="dropbtn">inventario</button>
             <div class="dropdown-content" style="left:0;">
-            <a href="Almacenamiento.jsp"method="post">registrar de producto</a>
-            <a href="inventario02.html">stock de productos</a>
-            <a href="inventario03.html">salida de productos</a>
-            <a href="inventario04.html">nuevo producto</a>
-            </div>
+                        <a href="inventario.jsp">registrar de producto</a>
+                        <a href="listaInventario.jsp">Lista de productos</a>
+                        <a href="inventario03.html">salida de productos</a>
+                        <a href="inventario04.html">nuevo producto</a>
+                    </div>
           </div>
          <div class="dropdown" style="float:left;">
             <button class="dropbtn">Compras</button>
@@ -111,7 +111,7 @@
     <form action="inventario" method="POST">
         <fieldset>
         <label>Nombre:<br>
-        <input type="text" name="Nombre">
+        <input type="text" name="nombre">
         </label><br><br>
         <label>Categoria:<br>
         <input type="text" name="categoria">
@@ -120,7 +120,7 @@
         <input type="text" name="cantidad">
         </label><br><br>
         <label>Ubicacion:<br>
-        <input type="text" name="Ubicacion">
+        <input type="text" name="ubicacion">
         </label><br><br>
         <label>Proveedor:<br>
         <input type="text" name="proveedor">
